@@ -30,11 +30,13 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 ## Key Findings
 ### Procedure and Diagnosis Codes
 - Inpatients: Most common procedure code is 4019 (general surgery), most frequent diagnostic code is 4019 (unspecified essential hypertension).
+
 ![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/inpatient_procedure_distribution.png)
 
 ![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/inpatient_diagnosis_distribution.png)
 
 - Outpatients: Most common procedure code is 9904 (general medical procedures), with diagnostic code 4019 also being the most frequent.
+
 ![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/outpatient_procedure_distribution.png)
 
 ![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/outpatient_diagnosis_distribution.png)
@@ -43,6 +45,9 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 - For hospital stays (inpatient claims): Most reimbursements are between $0 and $10,000. A few claims have much higher amounts, but these are less common.
 - For outpatient visits (no overnight stay): Almost all claims (99.9%) are $3,500 or less. Any claims above $3,500 are unusual and might be for very expensive procedures or could potentially be fraudulent.
 > This pattern helps us understand what typical medical costs look like and identify any unusually high claims that might need closer inspection.
+
+![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Inpatient_claim_reimbursement.png) ![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Outpatient_Claim_Reimbursement.png)
+
 
 ### Financial Impact
 - In 2009, approximately $290 million was lost to fraud.
