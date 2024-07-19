@@ -1,19 +1,19 @@
 ![](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) 
 ## Healthcare Provider Fraud Detection Using Machine Learning
 
-## Project Overview
+### Project Overview
 This project addresses the critical issue of healthcare provider fraud using machine learning techniques. By analyzing Medicare claims data, it aims to identify potentially fraudulent claims and providers, helping to reduce financial losses and improve the integrity of the healthcare system.
 
-## Problem Statement
+### Problem Statement
 Healthcare provider fraud, including false claims, unnecessary treatments, and billing for unrendered services, costs billions of dollars annually. Using Machine Learning algorithms the project classifies claims as fraudulent or legitimate and identifies key features that contribute to accurate fraud prediction.
 
-## Data Source
+### Data Source
 The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis/data), from Kaggle, includes:
 - Inpatient and outpatient claims data
 - Beneficiary details (demographics, enrollment info, chronic conditions)
 - Provider information
 
-## Methodology
+### Methodology
 1. Exploratory Data Analysis
 2. Data Preprocessing and Transformation
 3. Feature Engineering
@@ -24,12 +24,12 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 8. Hyperparameter Tuning
 9. Model Evaluation
 
-## Evaluation Metrics
+### Evaluation Metrics
 | AUC (Area Under the Curve)  |F1-Score | Accuracy  |
 | ------------- | ------------- | ------------------
 
-## Key Findings
-### Procedure and Diagnosis Codes
+### Key Findings
+#### Procedure and Diagnosis Codes
 - Inpatients: Most common procedure code is 4019 (general surgery), most frequent diagnostic code is 4019 (unspecified essential hypertension).
 
 ![](/images/inpatient_procedure_distribution.png)
@@ -65,8 +65,8 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 
 These insights highlight the complexity of healthcare fraud detection and the importance of thorough data analysis and preprocessing in developing effective machine learning models for fraud identification.
 
-## Results
-### Using All Features
+### Results
+#### Using All Features
 
 | Model               | Hyperparameters                                                    | Accuracy | F1 Score | AUC    |
 |---------------------|---------------------------------------------------------------------|----------|----------|--------|
@@ -75,7 +75,7 @@ These insights highlight the complexity of healthcare fraud detection and the im
 | Random Forest       | criterion: 'gini', max_depth: 8, max_features: 'auto', n_estimators: 300 | 0.6387   | 0.5495   | 0.6576 |
 | XGBoost             | n_estimators: 100, eta: 0.3                                         | 0.7623   | 0.6929   | 0.8177 |
 
-### Using Important Features
+#### Using Important Features
 
 | Model               | Hyperparameters                                                    | Accuracy | F1 Score | AUC    |
 |---------------------|---------------------------------------------------------------------|----------|----------|--------|
