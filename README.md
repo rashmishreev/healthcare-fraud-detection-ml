@@ -1,4 +1,4 @@
-[](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+![](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 # Healthcare Provider Fraud Detection Using Machine Learning
 
 ## Project Overview
