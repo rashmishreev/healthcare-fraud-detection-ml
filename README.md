@@ -50,7 +50,7 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
   <img src="https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Inpatient_claim_reimbursement.png" width="400" />
   <img src="https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Outpatient_Claim_Reimbursement.png" width="400" />
 </p>
-
+**Figure 1:** Distribution of Claim Amount Reimbursement for Inpatient (left) and Outpatient (right) services.
 
 ### Financial Impact
 - In 2009, approximately $290 million was lost to fraud.
