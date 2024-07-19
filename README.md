@@ -18,15 +18,12 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 3. Feature Engineering
 4. Data Normalization
 5. Feature Selection
-6. Model Training and Testing
-   > Algorithms: Logistic Regression, Random Forest, Decision Trees, XGBoost
+6. Model Training and Testing (Algorithms: Logistic Regression, Random Forest, Decision Trees, XGBoost)
 7. Hyperparameter Tuning
 8. Model Evaluation
 
 ## Evaluation Metrics
-- AUC (Area Under the Curve)
-- F1-Score
-- Accuracy
+| AUC (Area Under the Curve)  | F1-Score  | Accuracy |
 
 ## Key Findings
 
