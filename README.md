@@ -89,9 +89,3 @@ These insights highlight the complexity of healthcare fraud detection and the im
 - Feature selection slightly improved the performance of the Decision Tree model but had mixed effects on other models.
 - Logistic Regression had the lowest performance among the models tested.
 
-> ## Tools and Technologies
-  - Python
-  - Scikit-learn
-  - Pandas
-  - Matplotlib/Seaborn
-
