@@ -37,9 +37,9 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 
 - Outpatients: Most common procedure code is 9904 (general medical procedures), with diagnostic code 4019 also being the most frequent.
 
-![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/outpatient_procedure_distribution.png)
+![](/images/outpatient_procedure_distribution.png)
 
-![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/outpatient_diagnosis_distribution.png)
+![](/images/outpatient_diagnosis_distribution.png)
 
 ### Claim Reimbursement Patterns
 - For hospital stays (inpatient claims): Most reimbursements are between $0 and $10,000. A few claims have much higher amounts, but these are less common.
@@ -50,7 +50,8 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
   <img src="https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Inpatient_claim_reimbursement.png" width="400" />
   <img src="https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Outpatient_Claim_Reimbursement.png" width="400" />
 </p>
-**Figure 1:** Distribution of Claim Amount Reimbursement for Inpatient (left) and Outpatient (right) services.
+
+**Figure:** Distribution of Claim Amount Reimbursement for Inpatient (left) and Outpatient (right) services.
 
 ### Financial Impact
 - In 2009, approximately $290 million was lost to fraud.
