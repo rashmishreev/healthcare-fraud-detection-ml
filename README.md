@@ -31,7 +31,7 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 
 ### Procedure and Diagnosis Codes
 - Inpatients: Most common procedure code is 4019 (general surgery), most frequent diagnostic code is 4019 (unspecified essential hypertension).
-!(/images/inpatient_diagnosis_distribution.png)
+![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/inpatient_diagnosis_distribution.png)
 - Outpatients: Most common procedure code is 9904 (general medical procedures), with diagnostic code 4019 also being the most frequent.
 
 ### Claim Reimbursement Patterns
