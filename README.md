@@ -46,7 +46,7 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 - For outpatient visits (no overnight stay): Almost all claims (99.9%) are $3,500 or less. Any claims above $3,500 are unusual and might be for very expensive procedures or could potentially be fraudulent.
 > This pattern helps us understand what typical medical costs look like and identify any unusually high claims that might need closer inspection.
 
-![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Inpatient_claim_reimbursement.png) ![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Outpatient_Claim_Reimbursement.png)
+![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Inpatient_claim_reimbursement.png)![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Outpatient_Claim_Reimbursement.png)
 
 
 ### Financial Impact
@@ -55,6 +55,8 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 
 ### Age Distribution
 - Higher concentration of potential fraud cases among patients over 65.
+  
+![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/fraud_based_on_age.png)
 
 These insights highlight the complexity of healthcare fraud detection and the importance of thorough data analysis and preprocessing in developing effective machine learning models for fraud identification.
 
