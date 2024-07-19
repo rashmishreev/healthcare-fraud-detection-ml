@@ -1,3 +1,4 @@
+[](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 # Healthcare Provider Fraud Detection Using Machine Learning
 
 ## Project Overview
@@ -31,9 +32,9 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 ### Procedure and Diagnosis Codes
 - Inpatients: Most common procedure code is 4019 (general surgery), most frequent diagnostic code is 4019 (unspecified essential hypertension).
 
-![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/inpatient_procedure_distribution.png)
+![](/images/inpatient_procedure_distribution.png)
 
-![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/inpatient_diagnosis_distribution.png)
+![](/images/inpatient_diagnosis_distribution.png)
 
 - Outpatients: Most common procedure code is 9904 (general medical procedures), with diagnostic code 4019 also being the most frequent.
 
@@ -47,8 +48,8 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 > This pattern helps us understand what typical medical costs look like and identify any unusually high claims that might need closer inspection.
 
 <p float="left">
-  <img src="https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Inpatient_claim_reimbursement.png" width="400" />
-  <img src="https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Outpatient_Claim_Reimbursement.png" width="400" />
+  <img src="/images/Inpatient_claim_reimbursement.png" width="400" />
+  <img src="/images/Outpatient_Claim_Reimbursement.png" width="400" />
 </p>
 
 **Figure:** Distribution of Claim Amount Reimbursement for Inpatient (left) and Outpatient (right) services.
@@ -60,7 +61,7 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 ### Age Distribution
 - Higher concentration of potential fraud cases among patients over 65.
   
-![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/fraud_based_on_age.png)
+![](/images/fraud_based_on_age.png)
 
 These insights highlight the complexity of healthcare fraud detection and the importance of thorough data analysis and preprocessing in developing effective machine learning models for fraud identification.
 
