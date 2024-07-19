@@ -25,10 +25,9 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 ## Evaluation Metrics
 | AUC (Area Under the Curve)  | F1-Score  | Accuracy |
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| First Header  | Second Header |                   |
+| ------------- | ------------- | ------------------
+| AUC (Area Under the Curve) | F1-Score  | Accuracy |
 
 ## Key Findings
 
