@@ -27,7 +27,6 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 
 | AUC (Area Under the Curve)  |F1-Score | Accuracy  |
 | ------------- | ------------- | ------------------
-| AUC (Area Under the Curve) | F1-Score  | Accuracy |
 
 ## Key Findings
 
