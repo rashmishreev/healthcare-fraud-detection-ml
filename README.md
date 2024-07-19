@@ -18,13 +18,12 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 3. Feature Engineering
 4. Data Normalization
 5. Feature Selection
-6. Model Training and Testing (Algorithms: Logistic Regression, Random Forest, Decision Trees, XGBoost)
-7. Hyperparameter Tuning
-8. Model Evaluation
+6. Model Training and Testing
+   - Algorithms: Logistic Regression, Random Forest, Decision Trees, XGBoost
+8. Hyperparameter Tuning
+9. Model Evaluation
 
 ## Evaluation Metrics
-| AUC (Area Under the Curve)  | F1-Score  | Accuracy |
-
 | AUC (Area Under the Curve)  |F1-Score | Accuracy  |
 | ------------- | ------------- | ------------------
 
@@ -42,10 +41,6 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 ### Financial Impact
 - In 2009, approximately $290 million was lost to fraud.
 - $241 million was lost in the inpatient setting, and $54 million in the outpatient setting.
-
-### Dataset Composition
-- 138,556 unique beneficiaries (BeneIDs) and 558,211 unique claims (ClaimsIDs).
-- Multiple claims per beneficiary are common, indicating a need for efficient claim processing and monitoring.
 
 ### Age Distribution
 - Higher concentration of potential fraud cases among patients over 65.
@@ -71,15 +66,14 @@ These insights highlight the complexity of healthcare fraud detection and the im
 | Random Forest       | n_estimators: 500, max_features: 'auto', max_depth: 8, criterion: 'entropy' | 0.6352   | 0.5529   | 0.6615 |
 | XGBoost             | n_estimators: 50, eta: 0.3                                          | 0.7519   | 0.6786   | 0.8063 |
 
-> 
 - The Decision Tree model performed consistently well across both feature sets, achieving the highest AUC of 0.8227.
 - XGBoost also showed strong performance, particularly when using all features.
 - Feature selection slightly improved the performance of the Decision Tree model but had mixed effects on other models.
 - Logistic Regression had the lowest performance among the models tested.
 
 > ## Tools and Technologies
-- Python
-- Scikit-learn
-- Pandas
-- Matplotlib/Seaborn
+  - Python
+  - Scikit-learn
+  - Pandas
+  - Matplotlib/Seaborn
 
