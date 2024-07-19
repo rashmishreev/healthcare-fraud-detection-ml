@@ -46,8 +46,6 @@ The [dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud
 - For outpatient visits (no overnight stay): Almost all claims (99.9%) are $3,500 or less. Any claims above $3,500 are unusual and might be for very expensive procedures or could potentially be fraudulent.
 > This pattern helps us understand what typical medical costs look like and identify any unusually high claims that might need closer inspection.
 
-![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Inpatient_claim_reimbursement.png)![](https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Outpatient_Claim_Reimbursement.png)
-
 <p float="left">
   <img src="https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Inpatient_claim_reimbursement.png" width="400" />
   <img src="https://github.com/rashmishreev/DATA-245-ML/blob/main/images/Outpatient_Claim_Reimbursement.png" width="400" />
